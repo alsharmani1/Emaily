@@ -8,7 +8,9 @@
     "npm": "6.4.1"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {
