@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const cookieSession = require('cookie-session');
 const passport = require('passport');
 const app = express();
-const keys = require('./config/dev');
+const keys = require('./config/keys');
 
 
 //Order matters defind user model then call the passport
