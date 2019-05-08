@@ -1,7 +1,7 @@
 const passport = require("passport");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
 const mongoose = require("mongoose");
-const keys = require("../config/keys");
+const keys = require("../config/keys.js");
 
 //You can simply pull a model or require it using the .model
 //operator so you don't cause errors in mongoose
