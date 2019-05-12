@@ -9,8 +9,10 @@ const keys = require('./config/keys');
 //Order matters defind user model then call the passport
 require('./models/User');
 require('./services/passport');
-
-mongoose.connect(keys.mongoURI);
+mongoose.Promise = Promise;
+mongoose.connect(keys.mongoURI, {
+    useNewUrlParser: true
+});
 
 app.use(
     cookieSession({
