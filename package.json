@@ -1,7 +1,6 @@
 {
   "name": "campaign",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "engines": {
     "node": "10.15.3",
@@ -14,9 +13,11 @@
     "express": "^4.16.4",
     "materialize-css": "^1.0.0-rc.2",
     "mongoose": "^5.5.4",
+    "nodemon": "^1.19.1",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^2.0.0",
-    "react-stripe-checkout": "^2.6.3"
+    "react-stripe-checkout": "^2.6.3",
+    "stripe": "^7.3.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -26,5 +27,14 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsharmani1/node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alsharmani1/node/issues"
+  },
+  "homepage": "https://github.com/alsharmani1/node#readme",
+  "description": ""
 }

@@ -9,11 +9,12 @@ const { Schema } = mongoose; // this is destructuring
 const userSchema = new Schema({
     // name   data type
     googleId: String,
-    name: String
-
+    credits: { type: Number, default: 0 }
 });
+
 
 //make a collections
 // provide the name of the collection 
 // and then the schema or model used
 mongoose.model('users', userSchema);
+ 

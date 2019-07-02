@@ -4,7 +4,7 @@ const cookieSession = require('cookie-session');
 const passport = require('passport');
 const app = express();
 const keys = require('./config/keys');
-
+const bodyParser = require('body-parser')
 
 //Order matters defind user model then call the passport
 require('./models/User');
@@ -13,6 +13,8 @@ mongoose.Promise = Promise;
 mongoose.connect(keys.mongoURI, {
     useNewUrlParser: true
 });
+
+app.use(bodyParser.json());
 
 app.use(
     cookieSession({
@@ -25,6 +27,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 require('./routes/authRoutes')(app);
+require('./routes/billingRoutes')(app);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT); 
