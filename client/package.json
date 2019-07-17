@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "dependencies": { 
+  "dependencies": {
     "axios": "^0.18.0",
     "http-proxy-middleware": "^0.19.1",
     "materialize-css": "^1.0.0-rc.2",
@@ -12,6 +12,7 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1",
     "redux": "^4.0.1",
+    "redux-form": "^8.1.0",
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
