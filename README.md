@@ -1,8 +1,7 @@
 # Emaily
 
 
-Emaily is a survey service that sends mass emails to your customers for you to get feedback on a certain product or service that you offer.
-This program was build using the MERN stack and includes a payment system setup with Stripe.
+Emaily is a survey service that sends mass emails to your customers for you to get feedback on a certain product or service that you offer. This program was built using the MERN stack and includes a payment system setup with Stripe.
 
 HOW EMAILY WORKS -
 
@@ -24,7 +23,7 @@ Technologies used:
   - Materialize CSS
   - Cookie Session
   
-This app is currently under development and is in the final stages. To be able to use this app you can visit the link below.
+This app is currently under development and is in the final stages. To be able to use this app you can visit the website on heroku using the link below.
 The only the app is fully functional but not all functionality is visible to users. You simply login with google and pay using stripe
 test payment for now.
 
