@@ -33,4 +33,4 @@ Stripe test payment info:
  - Ex: 05/22
  - CVC: 586
 
-https://pacific-stream-85507.herokuapp.com
+https://pacific-stream-85507.herokuapp.com/surveys
