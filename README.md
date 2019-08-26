@@ -23,9 +23,7 @@ Technologies used:
   - Materialize CSS
   - Cookie Session
   
-This app is currently under development and is in the final stages. To be able to use this app you can visit the website on heroku using the link below.
-The only the app is fully functional but not all functionality is visible to users. You simply login with google and pay using stripe
-test payment for now.
+This app is currently under development and is in the final stages. To be able to use this app you can visit the website on heroku using the link below. The app is fully functional but not all functionality is visible to users. At this moment you can simply login with google and pay using stripe test payment.
 
 Stripe test payment info:
  - Email: emaily@gmail.com
