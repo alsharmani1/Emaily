@@ -18,18 +18,21 @@
     "nodemon": "^1.19.1",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^2.0.0",
+    "path-parser": "^4.2.0",
     "react-stripe-checkout": "^2.6.3",
     "sendgrid": "^5.2.3",
     "stripe": "^7.3.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "forever": "^1.0.0"
+  },
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js",
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\" \" npm run webhook\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=flase npm install --prefix client && npm run build --prefix client",
-    "webhook": "lt -p 5000 -s sharmanihskdjdh"
+    "webhook": "forever sendgrid_webhook.js"
   },
   "author": "",
   "license": "ISC",
