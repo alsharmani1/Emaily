@@ -22,7 +22,7 @@ module.exports = app => {
   });
 
   app.get("/", (req, res) => {
-    res.redirect("http://localhost:3000/");
+    res.redirect("/surveys");
   });
 
   app.get("/api/current_user", (req, res) => {
