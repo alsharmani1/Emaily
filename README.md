@@ -6,24 +6,26 @@ Emaily is a survey service that sends mass emails to your customers for you to g
 HOW EMAILY WORKS -
 
 Emaily's functionality include:
-  - Logging in using google 
+  - Logging in with google
   - Paying using our payment system to get credits ($5 for 5 credits)
     Each credit can send one mass email up to 200,000 emails.
   - Filling up a form with necessary information like
     Title, Subject, Body, and Recipients
+   - View list of all surveys with number of yes and no votes
 
 Technologies used:
   - MongoDB, Express, React, Node
   - Mongoose
-  - Redux, Redux-Thunk
+  - Redux, Redux-Thunk, Redux Form
+  - React Router
   - Axios
   - Stripe
   - GoogleOAuth2
+  - Cookie Session
   - Sendgrid Mailer
   - Materialize CSS
-  - Cookie Session
   
-This app is currently under development and is in the final stages. To be able to use this app you can visit the website on heroku using the link below. The app is fully functional but not all functionality is visible to users. At this moment you can simply login with google and pay using stripe test payment.
+To be able to use this app you can visit the website on heroku using the link below. Make sure to add credits using the payment info below as well.
 
 Stripe test payment info:
  - Email: emaily@gmail.com
